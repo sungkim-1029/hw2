@@ -36,7 +36,11 @@ class DC(a.Problem):
         pass
 
     def h(self, node):
-        """Heuristic: returns number of letters different """
+        """Heuristic: returns an estimate of the cost to get from the
+        state of this node to the goal state.  The heuristic's value
+        should depend on the Problem's cost parameter (steps, scrabble
+        or frequency) as this will effect the estimate cost to get to
+        the nearest goal. """
         pass
 
 # add more functions here as needed
